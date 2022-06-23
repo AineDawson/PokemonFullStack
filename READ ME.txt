@@ -1,0 +1,3 @@
+ng serve in command promp to start front end
+
+set global local_infile=1; to allow local data in MySQL
