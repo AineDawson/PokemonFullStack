@@ -1,0 +1,906 @@
+﻿pokedex_number,name,status,catch_rate,base_friendship,growth_rate
+1,Bulbasaur,Normal,45,70,Medium Slow
+2,Ivysaur,Normal,45,70,Medium Slow
+3,Venusaur,Normal,45,70,Medium Slow
+4,Charmander,Normal,45,70,Medium Slow
+5,Charmeleon,Normal,45,70,Medium Slow
+6,Charizard,Normal,45,70,Medium Slow
+7,Squirtle,Normal,45,70,Medium Slow
+8,Wartortle,Normal,45,70,Medium Slow
+9,Blastoise,Normal,45,70,Medium Slow
+10,Caterpie,Normal,255,70,Medium Fast
+11,Metapod,Normal,120,70,Medium Fast
+12,Butterfree,Normal,45,70,Medium Fast
+13,Weedle,Normal,255,70,Medium Fast
+14,Kakuna,Normal,120,70,Medium Fast
+15,Beedrill,Normal,45,70,Medium Fast
+16,Pidgey,Normal,255,70,Medium Slow
+17,Pidgeotto,Normal,120,70,Medium Slow
+18,Pidgeot,Normal,45,70,Medium Slow
+19,Rattata,Normal,255,70,Medium Fast
+20,Raticate,Normal,127,70,Medium Fast
+21,Spearow,Normal,255,70,Medium Fast
+22,Fearow,Normal,90,70,Medium Fast
+23,Ekans,Normal,255,70,Medium Fast
+24,Arbok,Normal,90,70,Medium Fast
+25,Pikachu,Normal,190,70,Medium Fast
+26,Raichu,Normal,75,70,Medium Fast
+27,Sandshrew,Normal,255,70,Medium Fast
+28,Sandslash,Normal,90,70,Medium Fast
+29,Nidoranâ™€,Normal,235,70,Medium Slow
+30,Nidorina,Normal,120,70,Medium Slow
+31,Nidoqueen,Normal,45,70,Medium Slow
+32,Nidoranâ™‚,Normal,235,70,Medium Slow
+33,Nidorino,Normal,120,70,Medium Slow
+34,Nidoking,Normal,45,70,Medium Slow
+35,Clefairy,Normal,150,140,Fast
+36,Clefable,Normal,25,140,Fast
+37,Vulpix,Normal,190,70,Medium Fast
+38,Ninetales,Normal,75,70,Medium Fast
+39,Jigglypuff,Normal,170,70,Fast
+40,Wigglytuff,Normal,50,70,Fast
+41,Zubat,Normal,255,70,Medium Fast
+42,Golbat,Normal,90,70,Medium Fast
+43,Oddish,Normal,255,70,Medium Slow
+44,Gloom,Normal,120,70,Medium Slow
+45,Vileplume,Normal,45,70,Medium Slow
+46,Paras,Normal,190,70,Medium Fast
+47,Parasect,Normal,75,70,Medium Fast
+48,Venonat,Normal,190,70,Medium Fast
+49,Venomoth,Normal,75,70,Medium Fast
+50,Diglett,Normal,255,70,Medium Fast
+51,Dugtrio,Normal,50,70,Medium Fast
+52,Meowth,Normal,255,70,Medium Fast
+53,Persian,Normal,90,70,Medium Fast
+54,Psyduck,Normal,190,70,Medium Fast
+55,Golduck,Normal,75,70,Medium Fast
+56,Mankey,Normal,190,70,Medium Fast
+57,Primeape,Normal,75,70,Medium Fast
+58,Growlithe,Normal,190,70,Slow
+59,Arcanine,Normal,75,70,Slow
+60,Poliwag,Normal,255,70,Medium Slow
+61,Poliwhirl,Normal,120,70,Medium Slow
+62,Poliwrath,Normal,45,70,Medium Slow
+63,Abra,Normal,200,70,Medium Slow
+64,Kadabra,Normal,100,70,Medium Slow
+65,Alakazam,Normal,50,70,Medium Slow
+66,Machop,Normal,180,70,Medium Slow
+67,Machoke,Normal,90,70,Medium Slow
+68,Machamp,Normal,45,70,Medium Slow
+69,Bellsprout,Normal,255,70,Medium Slow
+70,Weepinbell,Normal,120,70,Medium Slow
+71,Victreebel,Normal,45,70,Medium Slow
+72,Tentacool,Normal,190,70,Slow
+73,Tentacruel,Normal,60,70,Slow
+74,Geodude,Normal,255,70,Medium Slow
+75,Graveler,Normal,120,70,Medium Slow
+76,Golem,Normal,45,70,Medium Slow
+77,Ponyta,Normal,190,70,Medium Fast
+78,Rapidash,Normal,60,70,Medium Fast
+79,Slowpoke,Normal,190,70,Medium Fast
+80,Slowbro,Normal,75,70,Medium Fast
+81,Magnemite,Normal,190,70,Medium Fast
+82,Magneton,Normal,60,70,Medium Fast
+83,Farfetch'd,Normal,45,70,Medium Fast
+84,Doduo,Normal,190,70,Medium Fast
+85,Dodrio,Normal,45,70,Medium Fast
+86,Seel,Normal,190,70,Medium Fast
+87,Dewgong,Normal,75,70,Medium Fast
+88,Grimer,Normal,190,70,Medium Fast
+89,Muk,Normal,75,70,Medium Fast
+90,Shellder,Normal,190,70,Slow
+91,Cloyster,Normal,60,70,Slow
+92,Gastly,Normal,190,70,Medium Slow
+93,Haunter,Normal,90,70,Medium Slow
+94,Gengar,Normal,45,70,Medium Slow
+95,Onix,Normal,45,70,Medium Fast
+96,Drowzee,Normal,190,70,Medium Fast
+97,Hypno,Normal,75,70,Medium Fast
+98,Krabby,Normal,225,70,Medium Fast
+99,Kingler,Normal,60,70,Medium Fast
+100,Voltorb,Normal,190,70,Medium Fast
+101,Electrode,Normal,60,70,Medium Fast
+102,Exeggcute,Normal,90,70,Slow
+103,Exeggutor,Normal,45,70,Slow
+104,Cubone,Normal,190,70,Medium Fast
+105,Marowak,Normal,75,70,Medium Fast
+106,Hitmonlee,Normal,45,70,Medium Fast
+107,Hitmonchan,Normal,45,70,Medium Fast
+108,Lickitung,Normal,45,70,Medium Fast
+109,Koffing,Normal,190,70,Medium Fast
+110,Weezing,Normal,60,70,Medium Fast
+111,Rhyhorn,Normal,120,70,Slow
+112,Rhydon,Normal,60,70,Slow
+113,Chansey,Normal,30,140,Fast
+114,Tangela,Normal,45,70,Medium Fast
+115,Kangaskhan,Normal,45,70,Medium Fast
+116,Horsea,Normal,225,70,Medium Fast
+117,Seadra,Normal,75,70,Medium Fast
+118,Goldeen,Normal,225,70,Medium Fast
+119,Seaking,Normal,60,70,Medium Fast
+120,Staryu,Normal,225,70,Slow
+121,Starmie,Normal,60,70,Slow
+122,Mr. Mime,Normal,45,70,Medium Fast
+123,Scyther,Normal,45,70,Medium Fast
+124,Jynx,Normal,45,70,Medium Fast
+125,Electabuzz,Normal,45,70,Medium Fast
+126,Magmar,Normal,45,70,Medium Fast
+127,Pinsir,Normal,45,70,Slow
+128,Tauros,Normal,45,70,Slow
+129,Magikarp,Normal,255,70,Slow
+130,Gyarados,Normal,45,70,Slow
+131,Lapras,Normal,45,70,Slow
+132,Ditto,Normal,35,70,Medium Fast
+133,Eevee,Normal,45,70,Medium Fast
+134,Vaporeon,Normal,45,70,Medium Fast
+135,Jolteon,Normal,45,70,Medium Fast
+136,Flareon,Normal,45,70,Medium Fast
+137,Porygon,Normal,45,70,Medium Fast
+138,Omanyte,Normal,45,70,Medium Fast
+139,Omastar,Normal,45,70,Medium Fast
+140,Kabuto,Normal,45,70,Medium Fast
+141,Kabutops,Normal,45,70,Medium Fast
+142,Aerodactyl,Normal,45,70,Slow
+143,Snorlax,Normal,25,70,Slow
+144,Articuno,Sub Legendary,3,35,Slow
+145,Zapdos,Sub Legendary,3,35,Slow
+146,Moltres,Sub Legendary,3,35,Slow
+147,Dratini,Normal,45,35,Slow
+148,Dragonair,Normal,45,35,Slow
+149,Dragonite,Normal,45,35,Slow
+150,Mewtwo,Legendary,3,0,Slow
+151,Mew,Mythical,45,100,Medium Slow
+152,Chikorita,Normal,45,70,Medium Slow
+153,Bayleef,Normal,45,70,Medium Slow
+154,Meganium,Normal,45,70,Medium Slow
+155,Cyndaquil,Normal,45,70,Medium Slow
+156,Quilava,Normal,45,70,Medium Slow
+157,Typhlosion,Normal,45,70,Medium Slow
+158,Totodile,Normal,45,70,Medium Slow
+159,Croconaw,Normal,45,70,Medium Slow
+160,Feraligatr,Normal,45,70,Medium Slow
+161,Sentret,Normal,255,70,Medium Fast
+162,Furret,Normal,90,70,Medium Fast
+163,Hoothoot,Normal,255,70,Medium Fast
+164,Noctowl,Normal,90,70,Medium Fast
+165,Ledyba,Normal,255,70,Fast
+166,Ledian,Normal,90,70,Fast
+167,Spinarak,Normal,255,70,Fast
+168,Ariados,Normal,90,70,Fast
+169,Crobat,Normal,90,70,Medium Fast
+170,Chinchou,Normal,190,70,Slow
+171,Lanturn,Normal,75,70,Slow
+172,Pichu,Normal,190,70,Medium Fast
+173,Cleffa,Normal,150,140,Fast
+174,Igglybuff,Normal,170,70,Fast
+175,Togepi,Normal,190,70,Fast
+176,Togetic,Normal,75,70,Fast
+177,Natu,Normal,190,70,Medium Fast
+178,Xatu,Normal,75,70,Medium Fast
+179,Mareep,Normal,235,70,Medium Slow
+180,Flaaffy,Normal,120,70,Medium Slow
+181,Ampharos,Normal,45,70,Medium Slow
+182,Bellossom,Normal,45,70,Medium Slow
+183,Marill,Normal,190,70,Fast
+184,Azumarill,Normal,75,70,Fast
+185,Sudowoodo,Normal,65,70,Medium Fast
+186,Politoed,Normal,45,70,Medium Slow
+187,Hoppip,Normal,255,70,Medium Slow
+188,Skiploom,Normal,120,70,Medium Slow
+189,Jumpluff,Normal,45,70,Medium Slow
+190,Aipom,Normal,45,70,Fast
+191,Sunkern,Normal,235,70,Medium Slow
+192,Sunflora,Normal,120,70,Medium Slow
+193,Yanma,Normal,75,70,Medium Fast
+194,Wooper,Normal,255,70,Medium Fast
+195,Quagsire,Normal,90,70,Medium Fast
+196,Espeon,Normal,45,70,Medium Fast
+197,Umbreon,Normal,45,35,Medium Fast
+198,Murkrow,Normal,30,35,Medium Slow
+199,Slowking,Normal,70,70,Medium Fast
+200,Misdreavus,Normal,45,35,Fast
+201,Unown,Normal,225,70,Medium Fast
+202,Wobbuffet,Normal,45,70,Medium Fast
+203,Girafarig,Normal,60,70,Medium Fast
+204,Pineco,Normal,190,70,Medium Fast
+205,Forretress,Normal,75,70,Medium Fast
+206,Dunsparce,Normal,190,70,Medium Fast
+207,Gligar,Normal,60,70,Medium Slow
+208,Steelix,Normal,25,70,Medium Fast
+209,Snubbull,Normal,190,70,Fast
+210,Granbull,Normal,75,70,Fast
+211,Qwilfish,Normal,45,70,Medium Fast
+212,Scizor,Normal,25,70,Medium Fast
+213,Shuckle,Normal,190,70,Medium Slow
+214,Heracross,Normal,45,70,Slow
+215,Sneasel,Normal,60,35,Medium Slow
+216,Teddiursa,Normal,120,70,Medium Fast
+217,Ursaring,Normal,60,70,Medium Fast
+218,Slugma,Normal,190,70,Medium Fast
+219,Magcargo,Normal,75,70,Medium Fast
+220,Swinub,Normal,225,70,Slow
+221,Piloswine,Normal,75,70,Slow
+222,Corsola,Normal,60,70,Fast
+223,Remoraid,Normal,190,70,Medium Fast
+224,Octillery,Normal,75,70,Medium Fast
+225,Delibird,Normal,45,70,Fast
+226,Mantine,Normal,25,70,Slow
+227,Skarmory,Normal,25,70,Slow
+228,Houndour,Normal,120,35,Slow
+229,Houndoom,Normal,45,35,Slow
+230,Kingdra,Normal,45,70,Medium Fast
+231,Phanpy,Normal,120,70,Medium Fast
+232,Donphan,Normal,60,70,Medium Fast
+233,Porygon2,Normal,45,70,Medium Fast
+234,Stantler,Normal,45,70,Slow
+235,Smeargle,Normal,45,70,Fast
+236,Tyrogue,Normal,75,70,Medium Fast
+237,Hitmontop,Normal,45,70,Medium Fast
+238,Smoochum,Normal,45,70,Medium Fast
+239,Elekid,Normal,45,70,Medium Fast
+240,Magby,Normal,45,70,Medium Fast
+241,Miltank,Normal,45,70,Slow
+242,Blissey,Normal,30,140,Fast
+243,Raikou,Sub Legendary,3,35,Slow
+244,Entei,Sub Legendary,3,35,Slow
+245,Suicune,Sub Legendary,3,35,Slow
+246,Larvitar,Normal,45,35,Slow
+247,Pupitar,Normal,45,35,Slow
+248,Tyranitar,Normal,45,35,Slow
+249,Lugia,Legendary,3,0,Slow
+250,Ho-oh,Legendary,3,0,Slow
+251,Celebi,Mythical,45,100,Medium Slow
+252,Treecko,Normal,45,70,Medium Slow
+253,Grovyle,Normal,45,70,Medium Slow
+254,Sceptile,Normal,45,70,Medium Slow
+255,Torchic,Normal,45,70,Medium Slow
+256,Combusken,Normal,45,70,Medium Slow
+257,Blaziken,Normal,45,70,Medium Slow
+258,Mudkip,Normal,45,70,Medium Slow
+259,Marshtomp,Normal,45,70,Medium Slow
+260,Swampert,Normal,45,70,Medium Slow
+261,Poochyena,Normal,255,70,Medium Fast
+262,Mightyena,Normal,127,70,Medium Fast
+263,Zigzagoon,Normal,255,70,Medium Fast
+264,Linoone,Normal,90,70,Medium Fast
+265,Wurmple,Normal,255,70,Medium Fast
+266,Silcoon,Normal,120,70,Medium Fast
+267,Beautifly,Normal,45,70,Medium Fast
+268,Cascoon,Normal,120,70,Medium Fast
+269,Dustox,Normal,45,70,Medium Fast
+270,Lotad,Normal,255,70,Medium Slow
+271,Lombre,Normal,120,70,Medium Slow
+272,Ludicolo,Normal,45,70,Medium Slow
+273,Seedot,Normal,255,70,Medium Slow
+274,Nuzleaf,Normal,120,70,Medium Slow
+275,Shiftry,Normal,45,70,Medium Slow
+276,Taillow,Normal,200,70,Medium Slow
+277,Swellow,Normal,45,70,Medium Slow
+278,Wingull,Normal,190,70,Medium Fast
+279,Pelipper,Normal,45,70,Medium Fast
+280,Ralts,Normal,235,35,Slow
+281,Kirlia,Normal,120,35,Slow
+282,Gardevoir,Normal,45,35,Slow
+283,Surskit,Normal,200,70,Medium Fast
+284,Masquerain,Normal,75,70,Medium Fast
+285,Shroomish,Normal,255,70,Fluctuating
+286,Breloom,Normal,90,70,Fluctuating
+287,Slakoth,Normal,255,70,Slow
+288,Vigoroth,Normal,120,70,Slow
+289,Slaking,Normal,45,70,Slow
+290,Nincada,Normal,255,70,Erratic
+291,Ninjask,Normal,120,70,Erratic
+292,Shedinja,Normal,45,70,Erratic
+293,Whismur,Normal,190,70,Medium Slow
+294,Loudred,Normal,120,70,Medium Slow
+295,Exploud,Normal,45,70,Medium Slow
+296,Makuhita,Normal,180,70,Fluctuating
+297,Hariyama,Normal,200,70,Fluctuating
+298,Azurill,Normal,150,70,Fast
+299,Nosepass,Normal,255,70,Medium Fast
+300,Skitty,Normal,255,70,Fast
+301,Delcatty,Normal,60,70,Fast
+302,Sableye,Normal,45,35,Medium Slow
+303,Mawile,Normal,45,70,Fast
+304,Aron,Normal,180,35,Slow
+305,Lairon,Normal,90,35,Slow
+306,Aggron,Normal,45,35,Slow
+307,Meditite,Normal,180,70,Medium Fast
+308,Medicham,Normal,90,70,Medium Fast
+309,Electrike,Normal,120,70,Slow
+310,Manectric,Normal,45,70,Slow
+311,Plusle,Normal,200,70,Medium Fast
+312,Minun,Normal,200,70,Medium Fast
+313,Volbeat,Normal,150,70,Erratic
+314,Illumise,Normal,150,70,Fluctuating
+315,Roselia,Normal,150,70,Medium Slow
+316,Gulpin,Normal,225,70,Fluctuating
+317,Swalot,Normal,75,70,Fluctuating
+318,Carvanha,Normal,225,35,Slow
+319,Sharpedo,Normal,60,35,Slow
+320,Wailmer,Normal,125,70,Fluctuating
+321,Wailord,Normal,60,70,Fluctuating
+322,Numel,Normal,255,70,Medium Fast
+323,Camerupt,Normal,150,70,Medium Fast
+324,Torkoal,Normal,90,70,Medium Fast
+325,Spoink,Normal,255,70,Fast
+326,Grumpig,Normal,60,70,Fast
+327,Spinda,Normal,255,70,Fast
+328,Trapinch,Normal,255,70,Medium Slow
+329,Vibrava,Normal,120,70,Medium Slow
+330,Flygon,Normal,45,70,Medium Slow
+331,Cacnea,Normal,190,35,Medium Slow
+332,Cacturne,Normal,60,35,Medium Slow
+333,Swablu,Normal,255,70,Erratic
+334,Altaria,Normal,45,70,Erratic
+335,Zangoose,Normal,90,70,Erratic
+336,Seviper,Normal,90,70,Fluctuating
+337,Lunatone,Normal,45,70,Fast
+338,Solrock,Normal,45,70,Fast
+339,Barboach,Normal,190,70,Medium Fast
+340,Whiscash,Normal,75,70,Medium Fast
+341,Corphish,Normal,205,70,Fluctuating
+342,Crawdaunt,Normal,155,70,Fluctuating
+343,Baltoy,Normal,255,70,Medium Fast
+344,Claydol,Normal,90,70,Medium Fast
+345,Lileep,Normal,45,70,Erratic
+346,Cradily,Normal,45,70,Erratic
+347,Anorith,Normal,45,70,Erratic
+348,Armaldo,Normal,45,70,Erratic
+349,Feebas,Normal,255,70,Erratic
+350,Milotic,Normal,60,70,Erratic
+351,Castform,Normal,45,70,Medium Fast
+352,Kecleon,Normal,200,70,Medium Slow
+353,Shuppet,Normal,225,35,Fast
+354,Banette,Normal,45,35,Fast
+355,Duskull,Normal,190,35,Fast
+356,Dusclops,Normal,90,35,Fast
+357,Tropius,Normal,200,70,Slow
+358,Chimecho,Normal,45,70,Fast
+359,Absol,Normal,30,35,Medium Slow
+360,Wynaut,Normal,125,70,Medium Fast
+361,Snorunt,Normal,190,70,Medium Fast
+362,Glalie,Normal,75,70,Medium Fast
+363,Spheal,Normal,255,70,Medium Slow
+364,Sealeo,Normal,120,70,Medium Slow
+365,Walrein,Normal,45,70,Medium Slow
+366,Clamperl,Normal,255,70,Erratic
+367,Huntail,Normal,60,70,Erratic
+368,Gorebyss,Normal,60,70,Erratic
+369,Relicanth,Normal,25,70,Slow
+370,Luvdisc,Normal,225,70,Fast
+371,Bagon,Normal,45,35,Slow
+372,Shelgon,Normal,45,35,Slow
+373,Salamence,Normal,45,35,Slow
+374,Beldum,Normal,3,35,Slow
+375,Metang,Normal,3,35,Slow
+376,Metagross,Normal,3,35,Slow
+377,Regirock,Sub Legendary,3,35,Slow
+378,Regice,Sub Legendary,3,35,Slow
+379,Registeel,Sub Legendary,3,35,Slow
+380,Latias,Sub Legendary,3,90,Slow
+381,Latios,Sub Legendary,3,90,Slow
+382,Kyogre,Legendary,3,0,Slow
+383,Groudon,Legendary,3,0,Slow
+384,Rayquaza,Legendary,45,0,Slow
+385,Jirachi,Mythical,3,100,Slow
+386,Deoxys,Mythical,3,0,Slow
+387,Turtwig,Normal,45,70,Medium Slow
+388,Grotle,Normal,45,70,Medium Slow
+389,Torterra,Normal,45,70,Medium Slow
+390,Chimchar,Normal,45,70,Medium Slow
+391,Monferno,Normal,45,70,Medium Slow
+392,Infernape,Normal,45,70,Medium Slow
+393,Piplup,Normal,45,70,Medium Slow
+394,Prinplup,Normal,45,70,Medium Slow
+395,Empoleon,Normal,45,70,Medium Slow
+396,Starly,Normal,255,70,Medium Slow
+397,Staravia,Normal,120,70,Medium Slow
+398,Staraptor,Normal,45,70,Medium Slow
+399,Bidoof,Normal,255,70,Medium Fast
+400,Bibarel,Normal,127,70,Medium Fast
+401,Kricketot,Normal,255,70,Medium Slow
+402,Kricketune,Normal,45,70,Medium Slow
+403,Shinx,Normal,235,70,Medium Slow
+404,Luxio,Normal,120,100,Medium Slow
+405,Luxray,Normal,45,70,Medium Slow
+406,Budew,Normal,255,70,Medium Slow
+407,Roserade,Normal,75,70,Medium Slow
+408,Cranidos,Normal,45,70,Erratic
+409,Rampardos,Normal,45,70,Erratic
+410,Shieldon,Normal,45,70,Erratic
+411,Bastiodon,Normal,45,70,Erratic
+412,Burmy,Normal,120,70,Medium Fast
+413,Wormadam,Normal,45,70,Medium Fast
+414,Mothim,Normal,45,70,Medium Fast
+415,Combee,Normal,120,70,Medium Slow
+416,Vespiquen,Normal,45,70,Medium Slow
+417,Pachirisu,Normal,200,100,Medium Fast
+418,Buizel,Normal,190,70,Medium Fast
+419,Floatzel,Normal,75,70,Medium Fast
+420,Cherubi,Normal,190,70,Medium Fast
+421,Cherrim,Normal,75,70,Medium Fast
+422,Shellos,Normal,190,70,Medium Fast
+423,Gastrodon,Normal,75,70,Medium Fast
+424,Ambipom,Normal,45,100,Fast
+425,Drifloon,Normal,125,70,Fluctuating
+426,Drifblim,Normal,60,70,Fluctuating
+427,Buneary,Normal,190,0,Medium Fast
+428,Lopunny,Normal,60,140,Medium Fast
+429,Mismagius,Normal,45,35,Fast
+430,Honchkrow,Normal,30,35,Medium Slow
+431,Glameow,Normal,190,70,Fast
+432,Purugly,Normal,75,70,Fast
+433,Chingling,Normal,120,70,Fast
+434,Stunky,Normal,225,70,Medium Fast
+435,Skuntank,Normal,60,70,Medium Fast
+436,Bronzor,Normal,255,70,Medium Fast
+437,Bronzong,Normal,90,70,Medium Fast
+438,Bonsly,Normal,255,70,Medium Fast
+439,Mime Jr.,Normal,145,70,Medium Fast
+440,Happiny,Normal,130,140,Fast
+441,Chatot,Normal,30,35,Medium Slow
+442,Spiritomb,Normal,100,70,Medium Fast
+443,Gible,Normal,45,70,Slow
+444,Gabite,Normal,45,70,Slow
+445,Garchomp,Normal,45,70,Slow
+446,Munchlax,Normal,50,70,Slow
+447,Riolu,Normal,75,70,Medium Slow
+448,Lucario,Normal,45,70,Medium Slow
+449,Hippopotas,Normal,140,70,Slow
+450,Hippowdon,Normal,60,70,Slow
+451,Skorupi,Normal,120,70,Slow
+452,Drapion,Normal,45,70,Slow
+453,Croagunk,Normal,140,100,Medium Fast
+454,Toxicroak,Normal,75,70,Medium Fast
+455,Carnivine,Normal,200,70,Slow
+456,Finneon,Normal,190,70,Erratic
+457,Lumineon,Normal,75,70,Erratic
+458,Mantyke,Normal,25,70,Slow
+459,Snover,Normal,120,70,Slow
+460,Abomasnow,Normal,60,70,Slow
+461,Weavile,Normal,45,35,Medium Slow
+462,Magnezone,Normal,30,70,Medium Fast
+463,Lickilicky,Normal,30,70,Medium Fast
+464,Rhyperior,Normal,30,70,Slow
+465,Tangrowth,Normal,30,70,Medium Fast
+466,Electivire,Normal,30,70,Medium Fast
+467,Magmortar,Normal,30,70,Medium Fast
+468,Togekiss,Normal,30,70,Fast
+469,Yanmega,Normal,30,70,Medium Fast
+470,Leafeon,Normal,45,35,Medium Fast
+471,Glaceon,Normal,45,35,Medium Fast
+472,Gliscor,Normal,30,70,Medium Slow
+473,Mamoswine,Normal,50,70,Slow
+474,Porygon-Z,Normal,30,70,Medium Fast
+475,Gallade,Normal,45,35,Slow
+476,Probopass,Normal,60,70,Medium Fast
+477,Dusknoir,Normal,45,35,Fast
+478,Froslass,Normal,75,70,Medium Fast
+479,Rotom,Normal,45,70,Medium Fast
+480,Uxie,Sub Legendary,3,140,Slow
+481,Mesprit,Sub Legendary,3,140,Slow
+482,Azelf,Sub Legendary,3,140,Slow
+483,Dialga,Legendary,3,0,Slow
+484,Palkia,Legendary,3,0,Slow
+485,Heatran,Sub Legendary,3,100,Slow
+486,Regigigas,Sub Legendary,3,0,Slow
+487,Giratina,Legendary,3,0,Slow
+488,Cresselia,Sub Legendary,3,100,Slow
+489,Phione,Mythical,30,70,Slow
+490,Manaphy,Mythical,3,70,Slow
+491,Darkrai,Mythical,3,0,Slow
+492,Shaymin,Mythical,45,100,Medium Slow
+493,Arceus,Mythical,3,0,Slow
+494,Victini,Mythical,3,100,Slow
+495,Snivy,Normal,45,70,Medium Slow
+496,Servine,Normal,45,70,Medium Slow
+497,Serperior,Normal,45,70,Medium Slow
+498,Tepig,Normal,45,70,Medium Slow
+499,Pignite,Normal,45,70,Medium Slow
+500,Emboar,Normal,45,70,Medium Slow
+501,Oshawott,Normal,45,70,Medium Slow
+502,Dewott,Normal,45,70,Medium Slow
+503,Samurott,Normal,45,70,Medium Slow
+504,Patrat,Normal,255,70,Medium Fast
+505,Watchog,Normal,255,70,Medium Fast
+506,Lillipup,Normal,255,70,Medium Slow
+507,Herdier,Normal,120,70,Medium Slow
+508,Stoutland,Normal,45,70,Medium Slow
+509,Purrloin,Normal,255,70,Medium Fast
+510,Liepard,Normal,90,70,Medium Fast
+511,Pansage,Normal,190,70,Medium Fast
+512,Simisage,Normal,75,70,Medium Fast
+513,Pansear,Normal,190,70,Medium Fast
+514,Simisear,Normal,75,70,Medium Fast
+515,Panpour,Normal,190,70,Medium Fast
+516,Simipour,Normal,75,70,Medium Fast
+517,Munna,Normal,190,70,Fast
+518,Musharna,Normal,75,70,Fast
+519,Pidove,Normal,255,70,Medium Slow
+520,Tranquill,Normal,120,70,Medium Slow
+521,Unfezant,Normal,45,70,Medium Slow
+522,Blitzle,Normal,190,70,Medium Fast
+523,Zebstrika,Normal,75,70,Medium Fast
+524,Roggenrola,Normal,255,70,Medium Slow
+525,Boldore,Normal,120,70,Medium Slow
+526,Gigalith,Normal,45,70,Medium Slow
+527,Woobat,Normal,190,70,Medium Fast
+528,Swoobat,Normal,45,70,Medium Fast
+529,Drilbur,Normal,120,70,Medium Fast
+530,Excadrill,Normal,60,70,Medium Fast
+531,Audino,Normal,255,70,Fast
+532,Timburr,Normal,180,70,Medium Slow
+533,Gurdurr,Normal,90,70,Medium Slow
+534,Conkeldurr,Normal,45,70,Medium Slow
+535,Tympole,Normal,255,70,Medium Slow
+536,Palpitoad,Normal,120,70,Medium Slow
+537,Seismitoad,Normal,45,70,Medium Slow
+538,Throh,Normal,45,70,Medium Fast
+539,Sawk,Normal,45,70,Medium Fast
+540,Sewaddle,Normal,255,70,Medium Slow
+541,Swadloon,Normal,120,70,Medium Slow
+542,Leavanny,Normal,45,70,Medium Slow
+543,Venipede,Normal,255,70,Medium Slow
+544,Whirlipede,Normal,120,70,Medium Slow
+545,Scolipede,Normal,45,70,Medium Slow
+546,Cottonee,Normal,190,70,Medium Fast
+547,Whimsicott,Normal,75,70,Medium Fast
+548,Petilil,Normal,190,70,Medium Fast
+549,Lilligant,Normal,75,70,Medium Fast
+550,Basculin,Normal,25,70,Medium Fast
+551,Sandile,Normal,180,70,Medium Slow
+552,Krokorok,Normal,90,70,Medium Slow
+553,Krookodile,Normal,45,70,Medium Slow
+554,Darumaka,Normal,120,70,Medium Slow
+555,Darmanitan,Normal,60,70,Medium Slow
+556,Maractus,Normal,255,70,Medium Fast
+557,Dwebble,Normal,190,70,Medium Fast
+558,Crustle,Normal,75,70,Medium Fast
+559,Scraggy,Normal,180,35,Medium Fast
+560,Scrafty,Normal,90,70,Medium Fast
+561,Sigilyph,Normal,45,70,Medium Fast
+562,Yamask,Normal,190,70,Medium Fast
+563,Cofagrigus,Normal,90,70,Medium Fast
+564,Tirtouga,Normal,45,70,Medium Fast
+565,Carracosta,Normal,45,70,Medium Fast
+566,Archen,Normal,45,70,Medium Fast
+567,Archeops,Normal,45,70,Medium Fast
+568,Trubbish,Normal,190,70,Medium Fast
+569,Garbodor,Normal,60,70,Medium Fast
+570,Zorua,Normal,75,70,Medium Slow
+571,Zoroark,Normal,45,70,Medium Slow
+572,Minccino,Normal,255,70,Fast
+573,Cinccino,Normal,60,70,Fast
+574,Gothita,Normal,200,70,Medium Slow
+575,Gothorita,Normal,100,70,Medium Slow
+576,Gothitelle,Normal,50,70,Medium Slow
+577,Solosis,Normal,200,70,Medium Slow
+578,Duosion,Normal,100,70,Medium Slow
+579,Reuniclus,Normal,50,70,Medium Slow
+580,Ducklett,Normal,190,70,Medium Fast
+581,Swanna,Normal,45,70,Medium Fast
+582,Vanillite,Normal,255,70,Slow
+583,Vanillish,Normal,120,70,Slow
+584,Vanilluxe,Normal,45,70,Slow
+585,Deerling,Normal,190,70,Medium Fast
+586,Sawsbuck,Normal,75,70,Medium Fast
+587,Emolga,Normal,200,70,Medium Fast
+588,Karrablast,Normal,200,70,Medium Fast
+589,Escavalier,Normal,75,70,Medium Fast
+590,Foongus,Normal,190,70,Medium Fast
+591,Amoonguss,Normal,75,70,Medium Fast
+592,Frillish,Normal,190,70,Medium Fast
+593,Jellicent,Normal,60,70,Medium Fast
+594,Alomomola,Normal,75,70,Fast
+595,Joltik,Normal,190,70,Medium Fast
+596,Galvantula,Normal,75,70,Medium Fast
+597,Ferroseed,Normal,255,70,Medium Fast
+598,Ferrothorn,Normal,90,70,Medium Fast
+599,Klink,Normal,130,70,Medium Slow
+600,Klang,Normal,60,70,Medium Slow
+601,Klinklang,Normal,30,70,Medium Slow
+602,Tynamo,Normal,190,70,Slow
+603,Eelektrik,Normal,60,70,Slow
+604,Eelektross,Normal,30,70,Slow
+605,Elgyem,Normal,255,70,Medium Fast
+606,Beheeyem,Normal,90,70,Medium Fast
+607,Litwick,Normal,190,70,Medium Slow
+608,Lampent,Normal,90,70,Medium Slow
+609,Chandelure,Normal,45,70,Medium Slow
+610,Axew,Normal,75,35,Slow
+611,Fraxure,Normal,60,35,Slow
+612,Haxorus,Normal,45,35,Slow
+613,Cubchoo,Normal,120,70,Medium Fast
+614,Beartic,Normal,60,70,Medium Fast
+615,Cryogonal,Normal,25,70,Medium Fast
+616,Shelmet,Normal,200,70,Medium Fast
+617,Accelgor,Normal,75,70,Medium Fast
+618,Stunfisk,Normal,75,70,Medium Fast
+619,Mienfoo,Normal,180,70,Medium Slow
+620,Mienshao,Normal,45,70,Medium Slow
+621,Druddigon,Normal,45,70,Medium Fast
+622,Golett,Normal,190,70,Medium Fast
+623,Golurk,Normal,90,70,Medium Fast
+624,Pawniard,Normal,120,35,Medium Fast
+625,Bisharp,Normal,45,35,Medium Fast
+626,Bouffalant,Normal,45,70,Medium Fast
+627,Rufflet,Normal,190,70,Slow
+628,Braviary,Normal,60,70,Slow
+629,Vullaby,Normal,190,35,Slow
+630,Mandibuzz,Normal,60,35,Slow
+631,Heatmor,Normal,90,70,Medium Fast
+632,Durant,Normal,90,70,Medium Fast
+633,Deino,Normal,45,35,Slow
+634,Zweilous,Normal,45,35,Slow
+635,Hydreigon,Normal,45,35,Slow
+636,Larvesta,Normal,45,70,Slow
+637,Volcarona,Normal,15,70,Slow
+638,Cobalion,Sub Legendary,3,35,Slow
+639,Terrakion,Sub Legendary,3,35,Slow
+640,Virizion,Sub Legendary,3,35,Slow
+641,Tornadus,Sub Legendary,3,90,Slow
+642,Thundurus,Sub Legendary,3,90,Slow
+643,Reshiram,Legendary,3,0,Slow
+644,Zekrom,Legendary,3,0,Slow
+645,Landorus,Sub Legendary,3,90,Slow
+646,Kyurem,Legendary,3,0,Slow
+647,Keldeo,Mythical,3,35,Slow
+648,Meloetta,Mythical,3,100,Slow
+649,Genesect,Mythical,3,0,Slow
+650,Chespin,Normal,45,70,Medium Slow
+651,Quilladin,Normal,45,70,Medium Slow
+652,Chesnaught,Normal,45,70,Medium Slow
+653,Fennekin,Normal,45,70,Medium Slow
+654,Braixen,Normal,45,70,Medium Slow
+655,Delphox,Normal,45,70,Medium Slow
+656,Froakie,Normal,45,70,Medium Slow
+657,Frogadier,Normal,45,70,Medium Slow
+658,Greninja,Normal,45,70,Medium Slow
+659,Bunnelby,Normal,255,70,Medium Fast
+660,Diggersby,Normal,127,70,Medium Fast
+661,Fletchling,Normal,255,70,Medium Slow
+662,Fletchinder,Normal,120,70,Medium Slow
+663,Talonflame,Normal,45,70,Medium Slow
+664,Scatterbug,Normal,255,70,Medium Fast
+665,Spewpa,Normal,120,70,Medium Fast
+666,Vivillon,Normal,45,70,Medium Fast
+667,Litleo,Normal,220,70,Medium Slow
+668,Pyroar,Normal,65,70,Medium Slow
+669,FlabÃ©bÃ©,Normal,225,70,Medium Fast
+670,Floette,Normal,120,70,Medium Fast
+671,Florges,Normal,45,70,Medium Fast
+672,Skiddo,Normal,200,70,Medium Fast
+673,Gogoat,Normal,45,70,Medium Fast
+674,Pancham,Normal,220,70,Medium Fast
+675,Pangoro,Normal,65,70,Medium Fast
+676,Furfrou,Normal,160,70,Medium Fast
+677,Espurr,Normal,190,70,Medium Fast
+678,Meowstic,Normal,75,70,Medium Fast
+679,Honedge,Normal,180,70,Medium Fast
+680,Doublade,Normal,90,70,Medium Fast
+681,Aegislash,Normal,45,70,Medium Fast
+682,Spritzee,Normal,200,70,Medium Fast
+683,Aromatisse,Normal,140,70,Medium Fast
+684,Swirlix,Normal,200,70,Medium Fast
+685,Slurpuff,Normal,140,70,Medium Fast
+686,Inkay,Normal,190,70,Medium Fast
+687,Malamar,Normal,80,70,Medium Fast
+688,Binacle,Normal,120,70,Medium Fast
+689,Barbaracle,Normal,45,70,Medium Fast
+690,Skrelp,Normal,225,70,Medium Fast
+691,Dragalge,Normal,55,70,Medium Fast
+692,Clauncher,Normal,225,70,Slow
+693,Clawitzer,Normal,55,70,Slow
+694,Helioptile,Normal,190,70,Medium Fast
+695,Heliolisk,Normal,75,70,Medium Fast
+696,Tyrunt,Normal,45,70,Medium Fast
+697,Tyrantrum,Normal,45,70,Medium Fast
+698,Amaura,Normal,45,70,Medium Fast
+699,Aurorus,Normal,45,70,Medium Fast
+700,Sylveon,Normal,45,70,Medium Fast
+701,Hawlucha,Normal,100,70,Medium Fast
+702,Dedenne,Normal,180,70,Medium Fast
+703,Carbink,Normal,60,70,Slow
+704,Goomy,Normal,45,35,Slow
+705,Sliggoo,Normal,45,35,Slow
+706,Goodra,Normal,45,35,Slow
+707,Klefki,Normal,75,70,Fast
+708,Phantump,Normal,120,70,Medium Fast
+709,Trevenant,Normal,60,70,Medium Fast
+710,Pumpkaboo,Normal,120,70,Medium Fast
+711,Gourgeist,Normal,60,70,Medium Fast
+712,Bergmite,Normal,190,70,Medium Fast
+713,Avalugg,Normal,55,70,Medium Fast
+714,Noibat,Normal,190,70,Medium Fast
+715,Noivern,Normal,45,70,Medium Fast
+716,Xerneas,Legendary,45,0,Slow
+717,Yveltal,Legendary,45,0,Slow
+718,Zygarde,Legendary,3,0,Slow
+719,Diancie,Mythical,3,70,Slow
+720,Hoopa,Mythical,3,100,Slow
+721,Volcanion,Mythical,3,100,Slow
+722,Rowlet,Normal,45,70,Medium Slow
+723,Dartrix,Normal,45,70,Medium Slow
+724,Decidueye,Normal,45,70,Medium Slow
+725,Litten,Normal,45,70,Medium Slow
+726,Torracat,Normal,45,70,Medium Slow
+727,Incineroar,Normal,45,70,Medium Slow
+728,Popplio,Normal,45,70,Medium Slow
+729,Brionne,Normal,45,70,Medium Slow
+730,Primarina,Normal,45,70,Medium Slow
+731,Pikipek,Normal,255,70,Medium Fast
+732,Trumbeak,Normal,120,70,Medium Fast
+733,Toucannon,Normal,45,70,Medium Fast
+734,Yungoos,Normal,255,70,Medium Fast
+735,Gumshoos,Normal,127,70,Medium Fast
+736,Grubbin,Normal,255,70,Medium Fast
+737,Charjabug,Normal,120,70,Medium Fast
+738,Vikavolt,Normal,45,70,Medium Fast
+739,Crabrawler,Normal,225,70,Medium Fast
+740,Crabominable,Normal,60,70,Medium Fast
+741,Oricorio,Normal,45,70,Medium Fast
+742,Cutiefly,Normal,190,70,Medium Fast
+743,Ribombee,Normal,75,70,Medium Fast
+744,Rockruff,Normal,190,70,Medium Fast
+745,Lycanroc,Normal,90,70,Medium Fast
+746,Wishiwashi,Normal,60,70,Fast
+747,Mareanie,Normal,190,70,Medium Fast
+748,Toxapex,Normal,75,70,Medium Fast
+749,Mudbray,Normal,190,70,Medium Fast
+750,Mudsdale,Normal,60,70,Medium Fast
+751,Dewpider,Normal,200,70,Medium Fast
+752,Araquanid,Normal,100,70,Medium Fast
+753,Fomantis,Normal,190,70,Medium Fast
+754,Lurantis,Normal,75,70,Medium Fast
+755,Morelull,Normal,190,70,Medium Fast
+756,Shiinotic,Normal,75,70,Medium Fast
+757,Salandit,Normal,120,70,Medium Fast
+758,Salazzle,Normal,45,70,Medium Fast
+759,Stufful,Normal,140,70,Medium Fast
+760,Bewear,Normal,70,70,Medium Fast
+761,Bounsweet,Normal,235,70,Medium Slow
+762,Steenee,Normal,120,70,Medium Slow
+763,Tsareena,Normal,45,70,Medium Slow
+764,Comfey,Normal,60,70,Fast
+765,Oranguru,Normal,45,70,Slow
+766,Passimian,Normal,45,70,Slow
+767,Wimpod,Normal,90,70,Medium Fast
+768,Golisopod,Normal,45,70,Medium Fast
+769,Sandygast,Normal,140,70,Medium Fast
+770,Palossand,Normal,60,70,Medium Fast
+771,Pyukumuku,Normal,60,70,Fast
+772,Type: Null,Sub Legendary,3,0,Slow
+773,Silvally,Sub Legendary,3,0,Slow
+774,Minior,Normal,30,70,Medium Slow
+775,Komala,Normal,45,70,Slow
+776,Turtonator,Normal,70,70,Medium Fast
+777,Togedemaru,Normal,180,70,Medium Fast
+778,Mimikyu,Normal,45,70,Medium Fast
+779,Bruxish,Normal,80,70,Medium Fast
+780,Drampa,Normal,70,70,Medium Fast
+781,Dhelmise,Normal,25,70,Medium Fast
+782,Jangmo-o,Normal,45,70,Slow
+783,Hakamo-o,Normal,45,70,Slow
+784,Kommo-o,Normal,45,70,Slow
+785,Tapu Koko,Sub Legendary,3,70,Slow
+786,Tapu Lele,Sub Legendary,3,70,Slow
+787,Tapu Bulu,Sub Legendary,3,70,Slow
+788,Tapu Fini,Sub Legendary,3,70,Slow
+789,Cosmog,Legendary,45,0,Slow
+790,Cosmoem,Legendary,45,0,Slow
+791,Solgaleo,Legendary,45,0,Slow
+792,Lunala,Legendary,45,0,Slow
+793,Nihilego,Sub Legendary,45,0,Slow
+794,Buzzwole,Sub Legendary,45,0,Slow
+795,Pheromosa,Sub Legendary,45,0,Slow
+796,Xurkitree,Sub Legendary,45,0,Slow
+797,Celesteela,Sub Legendary,45,0,Slow
+798,Kartana,Sub Legendary,45,0,Slow
+799,Guzzlord,Sub Legendary,45,0,Slow
+800,Necrozma,Legendary,255,0,Slow
+801,Magearna,Mythical,3,0,Slow
+802,Marshadow,Mythical,3,0,Slow
+803,Poipole,Sub Legendary,45,0,Slow
+804,Naganadel,Sub Legendary,45,0,Slow
+805,Stakataka,Sub Legendary,30,0,Slow
+806,Blacephalon,Sub Legendary,30,0,Slow
+807,Zeraora,Mythical,3,0,Slow
+808,Meltan,Mythical,,,Slow
+809,Melmetal,Mythical,,,Slow
+810,Grookey,Normal,,,Medium Slow
+811,Thwackey,Normal,,,Medium Slow
+812,Rillaboom,Normal,,,Medium Slow
+813,Scorbunny,Normal,,,Medium Slow
+814,Raboot,Normal,,,Medium Slow
+815,Cinderace,Normal,,,Medium Slow
+816,Sobble,Normal,,,Medium Slow
+817,Drizzile,Normal,,,Medium Slow
+818,Inteleon,Normal,,,Medium Slow
+819,Skwovet,Normal,,,Medium Fast
+820,Greedent,Normal,,,Medium Fast
+821,Rookidee,Normal,,,Medium Slow
+822,Corvisquire,Normal,,,Medium Slow
+823,Corviknight,Normal,,,Medium Slow
+824,Blipbug,Normal,,,Medium Fast
+825,Dottler,Normal,,,Medium Fast
+826,Orbeetle,Normal,,,Medium Fast
+827,Nickit,Normal,,,Fast
+828,Thievul,Normal,,,Fast
+829,Gossifleur,Normal,,,Medium Fast
+830,Eldegoss,Normal,,,Medium Fast
+831,Wooloo,Normal,,,Medium Fast
+832,Dubwool,Normal,,,Medium Fast
+833,Chewtle,Normal,,,Medium Fast
+834,Drednaw,Normal,,,Medium Fast
+835,Yamper,Normal,,,Fast
+836,Boltund,Normal,,,Fast
+837,Rolycoly,Normal,,,Medium Slow
+838,Carkol,Normal,,,Medium Slow
+839,Coalossal,Normal,,,Medium Slow
+840,Applin,Normal,,,Erratic
+841,Flapple,Normal,,,Erratic
+842,Appletun,Normal,,,Erratic
+843,Silicobra,Normal,,,Medium Fast
+844,Sandaconda,Normal,,,Medium Fast
+845,Cramorant,Normal,,,Medium Fast
+846,Arrokuda,Normal,,,Slow
+847,Barraskewda,Normal,,,Slow
+848,Toxel,Normal,,,Medium Slow
+849,Toxtricity,Normal,,,Medium Slow
+850,Sizzlipede,Normal,,,Medium Fast
+851,Centiskorch,Normal,,,Medium Fast
+852,Clobbopus,Normal,,,Medium Slow
+853,Grapploct,Normal,,,Medium Slow
+854,Sinistea,Normal,,,Medium Fast
+855,Polteageist,Normal,,,Medium Fast
+856,Hatenna,Normal,,,Slow
+857,Hattrem,Normal,,,Slow
+858,Hatterene,Normal,,,Slow
+859,Impidimp,Normal,,,Medium Fast
+860,Morgrem,Normal,,,Medium Fast
+861,Grimmsnarl,Normal,,,Medium Fast
+862,Obstagoon,Normal,,,Medium Fast
+863,Perrserker,Normal,,,Medium Fast
+864,Cursola,Normal,,,Fast
+865,Sirfetch'd,Normal,,,Medium Fast
+866,Mr. Rime,Normal,,,Medium Fast
+867,Runerigus,Normal,,,Medium Fast
+868,Milcery,Normal,,,Medium Fast
+869,Alcremie,Normal,,,Medium Fast
+870,Falinks,Normal,,,Medium Fast
+871,Pincurchin,Normal,,,Medium Fast
+872,Snom,Normal,,,Medium Fast
+873,Frosmoth,Normal,,,Medium Fast
+874,Stonjourner,Normal,,,Slow
+875,Eiscue,Normal,,,Slow
+876,Indeedee,Normal,,,Fast
+877,Morpeko,Normal,,,Medium Fast
+878,Cufant,Normal,,,Medium Fast
+879,Copperajah,Normal,,,Medium Fast
+880,Dracozolt,Normal,,,Slow
+881,Arctozolt,Normal,,,Slow
+882,Dracovish,Normal,,,Slow
+883,Arctovish,Normal,,,Slow
+884,Duraludon,Normal,,,Medium Fast
+885,Dreepy,Normal,,,Slow
+886,Drakloak,Normal,,,Slow
+887,Dragapult,Normal,,,Slow
+888,Zacian,Legendary,,,Slow
+889,Zamazenta,Legendary,,,Slow
+890,Eternatus,Legendary,,,Slow
+891,Kubfu,Sub Legendary,,,
+892,Urshifu,Sub Legendary,,,
+893,Zarude,Mythical,,,
+894,Regieleki,Sub Legendary,,,
+895,Regidrago,Sub Legendary,,,
+896,Glastrier,Legendary,,,
+897,Spectrier,Legendary,,,
+898,Calyrex,Legendary,,,
+899,Wyrdeer,Normal,,,
+900,Kleavor,Normal,,,
+901,Ursaluna,Normal,,,
+902,Basculegion,Normal,,,
+903,Sneasler,Normal,,,
+904,Overqwil,Normal,,,
+905,Enamorus,Sub Legendary,,,
