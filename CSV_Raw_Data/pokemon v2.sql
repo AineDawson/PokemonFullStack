@@ -1,6 +1,6 @@
 CREATE TABLE Pokemon(
     dex_number Integer(4) not null,
-    english_name varchar(30) not null,
+    pokemon_name varchar(30) not null,
     legend_status varchar(30),
     catch_rate Integer(10),
     base_friendship Integer(9),
@@ -20,14 +20,14 @@ CREATE TABLE PokemonForm(
     species Varchar(45),
     height double,
     weight double,
-    stattotal Integer(9),
+    stat_total Integer(9),
     hp Integer(9),
     attack Integer(9),
     defense Integer(9),
     special_attack Integer(9),
     special_defense Integer(9),
     speed Integer(9),
-    percentMale Integer(9),
+    percent_male Integer(9),
     primary key(dex_number, form_name),
     FOREIGN KEY (dex_number) REFERENCES Pokemon(dex_number)
 );

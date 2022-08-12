@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import pokemonsite.pokemonbackend.exceptions.PokémonNotFoundException;
-import pokemonsite.pokemonbackend.model.Pokémon;
+import pokemonsite.pokemonbackend.model.PokemonForm;
 import pokemonsite.pokemonbackend.repo.PokémonRepo;
 
 @Service
@@ -21,12 +21,16 @@ public class PokémonService {
 	}
 	
 	//provided by JpaRepository
-	public List<Pokémon> findAllPokémon(){
+	public List<PokemonForm> findAllPokémon(){
 		return pokémonRepo.findAll();
 	}
+//	public PokemonForm getPokemonForms() {
+//		return pokemonRepo.getAllPokemonForms();
+//				}
 	//Created 
-	public Pokémon findPokémonByIndexNumber(Integer indexNumber) {
-		return pokémonRepo.findPokémonByIndexNumber(indexNumber).
-				orElseThrow(() -> new PokémonNotFoundException("User by id "+indexNumber+" was not found"));
+	public PokemonForm findPokemonForm(Integer dexNumber, String formName) {
+		return pokémonRepo.findPokemonFormByDexNumberAndFormName(dexNumber, formName).
+				orElseThrow(() -> new PokémonNotFoundException("Pokemon with dex number "+dexNumber+" and name "+formName +""
+						+ "was not found"));
 	}
 }
