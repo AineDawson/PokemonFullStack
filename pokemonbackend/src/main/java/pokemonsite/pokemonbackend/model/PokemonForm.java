@@ -1,5 +1,7 @@
 package pokemonsite.pokemonbackend.model;
 import java.io.Serializable;
+import java.util.List;
+
 import javax.persistence.*;
 
 @Entity
@@ -9,12 +11,12 @@ import javax.persistence.*;
 ////	@PrimaryKeyJoinColumn(name="pokemonName"),
 //	@PrimaryKeyJoinColumn(name="dexNumber")
 //	})
-public class PokemonForm implements Serializable{
+public class PokemonForm{
 	@Id
-	@Column(nullable=false, name="dexNumber")
+	@Column(name="dexNumber", nullable=false)
 	private Integer dexNumber;
 	@Id
-	@Column(nullable=false)
+	@Column(name="form_name", nullable=false)
 	private String formName;
 	private Integer generation;
 	private String species;
@@ -28,19 +30,33 @@ public class PokemonForm implements Serializable{
 	private Integer specialDefense;
 	private Integer speed;
 	private Double percentMale;
+	@ManyToOne() 
+	@JoinColumn(name="dexNumber", insertable=false, updatable=false)
+	private Pokemon pokemon;
+	
+//	@OneToMany() 
+//	@JoinColumn(name="dexNumber", insertable=false, updatable=false)
+//	private <PokemonFormTypes> pokemonFormTypes;
+	
+	@OneToMany(targetEntity=PokemonFormTypes.class, cascade=CascadeType.ALL) 
+	@JoinColumn(name="dexNumber")
+	@JoinColumn(name="formName")
+	private List<PokemonFormTypes> pokemonFormTypes;
+	
+	@OneToMany(targetEntity=PokemonFormAbilities.class, cascade=CascadeType.ALL) 
+	@JoinColumn(name="dexNumber")
+	@JoinColumn(name="formName")
+	private List<PokemonFormAbilities> pokemonFormAbilities;
 	
 //	@Id
-	@ManyToOne
-//	@JoinColumn (name="dexNumber", insertable=false, updatable=false)
-	private Pokemon pokemon;
+	
 	
 	public PokemonForm() {}
 
-	public PokemonForm(Integer dexNumber, String formName, Integer generation, String species,
+	public PokemonForm(String formName, Integer generation, String species,
 			Double height, Double weight, Integer statTotal, Integer hP, Integer attack,
 			Integer defense, Integer specialAttack, Integer specialDefense, Integer speed,
 			Double percentMale) {
-		this.dexNumber=dexNumber;
 		this.formName=formName;
 		this.generation=generation;
 		this.species=species;
@@ -55,13 +71,29 @@ public class PokemonForm implements Serializable{
 		this.speed=speed;
 		this.percentMale=percentMale;
 	}
-
-	public Integer getDexNumber() {
-		return dexNumber;
+	
+	public Pokemon getPokemon() {
+		return pokemon;
 	}
-
-	public void setDexNumber(Integer dexNumber) {
-		this.dexNumber = dexNumber;
+	
+	public void setPokemon(Pokemon pokemon) {
+		this.pokemon=pokemon;
+	}
+	
+	public List<PokemonFormTypes> getPokemonFormTypes() {
+		return pokemonFormTypes;
+	}
+	
+	public void setPokemonFormTypes(List<PokemonFormTypes> pokemonFormTypes) {
+		this.pokemonFormTypes=pokemonFormTypes;
+	}
+	
+	public List<PokemonFormAbilities> getPokemonFormAbilities() {
+		return pokemonFormAbilities;
+	}
+	
+	public void setPokemonFormAbilities(List<PokemonFormAbilities> pokemonFormAbilities) {
+		this.pokemonFormAbilities=pokemonFormAbilities;
 	}
 
 	public String getFormName() {

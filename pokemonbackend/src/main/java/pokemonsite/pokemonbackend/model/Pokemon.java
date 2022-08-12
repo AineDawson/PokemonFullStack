@@ -1,6 +1,7 @@
 package pokemonsite.pokemonbackend.model;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Set;
 
 import javax.persistence.*;
@@ -36,7 +37,9 @@ public class Pokemon implements Serializable{
 	private Integer baseFriendship;
 	private String growthRate;
 	
-//	@OneToMany private Set<PokemonForm> pokemonForm;
+	@OneToMany(targetEntity=PokemonForm.class, cascade=CascadeType.ALL) 
+	@JoinColumn(name="dexNumber", referencedColumnName="dexNumber")
+	private List<PokemonForm> pokemonForm;
 	
 	public Pokemon() {}
 	

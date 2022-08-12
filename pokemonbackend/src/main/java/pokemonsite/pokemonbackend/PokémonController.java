@@ -38,11 +38,18 @@ public class PokémonController {
 		List<PokemonForm> pokémon=pokémonService.findAllPokémon();
 		return new ResponseEntity<>(pokémon, HttpStatus.OK);
 	}
+	
+	//Retrieves every pokémonform in the database
+		@GetMapping("/allforms")
+		public ResponseEntity<List<PokemonForm>> getPokemonForms(){
+			List<PokemonForm> pokémon=pokémonService.getPokemonForms();
+			return new ResponseEntity<>(pokémon, HttpStatus.OK);
+		}
+	
 	//Locates pokémon based off of their index number
-	@GetMapping("/find/{indexNumber}/{formName}")
-	public ResponseEntity<PokemonForm> getPokemonForm(@PathVariable("indexNumber") Integer indexNumber, 
-			@PathVariable("formName") String formName){
-		PokemonForm pokémon=pokémonService.findPokemonForm(indexNumber, formName);
+	@GetMapping("/find/{formName}")
+	public ResponseEntity<PokemonForm> getPokemonForm(@PathVariable("formName") String formName){
+		PokemonForm pokémon=pokémonService.findPokemonForm(formName);
 		return new ResponseEntity<>(pokémon, HttpStatus.OK);
 	}
 	

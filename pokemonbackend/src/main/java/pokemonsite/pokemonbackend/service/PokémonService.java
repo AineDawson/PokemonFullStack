@@ -24,13 +24,13 @@ public class PokémonService {
 	public List<PokemonForm> findAllPokémon(){
 		return pokémonRepo.findAll();
 	}
-//	public PokemonForm getPokemonForms() {
-//		return pokemonRepo.getAllPokemonForms();
-//				}
+	
+	public List<PokemonForm> getPokemonForms() {
+		return pokémonRepo.getAllPokemonForms();
+				}
 	//Created 
-	public PokemonForm findPokemonForm(Integer dexNumber, String formName) {
-		return pokémonRepo.findPokemonFormByDexNumberAndFormName(dexNumber, formName).
-				orElseThrow(() -> new PokémonNotFoundException("Pokemon with dex number "+dexNumber+" and name "+formName +""
-						+ "was not found"));
+	public PokemonForm findPokemonForm( String formName) {
+		return pokémonRepo.findPokemonFormByFormName(formName).
+				orElseThrow(() -> new PokémonNotFoundException("Pokemon with name "+formName +" was not found"));
 	}
 }

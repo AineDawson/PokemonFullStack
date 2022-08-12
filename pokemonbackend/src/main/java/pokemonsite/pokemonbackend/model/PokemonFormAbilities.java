@@ -3,6 +3,7 @@ import java.io.Serializable;
 import javax.persistence.*;
 
 @Entity
+@IdClass(PokemonFormId.class)
 @Table(name="pokemonformabilities")
 public class PokemonFormAbilities implements Serializable{
 	@Id
