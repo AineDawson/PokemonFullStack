@@ -2,26 +2,26 @@ package pokemonsite.pokemonbackend.model;
 import java.io.Serializable;
 import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 @IdClass(PokemonFormId.class)
 @Table(name="pokemonformabilities")
 public class PokemonFormAbilities implements Serializable{
 	@Id
+	@Column(nullable=false)
 	private Integer dexNumber;
 	@Id
+	@Column(nullable=false)
 	private String formName;
-	@Id
-	private Integer abilityIndex;
-
+	private String ability1;
+	private String ability2;
+	private String ability3;
+	
 	public PokemonFormAbilities() {
 		// TODO Auto-generated constructor stub
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	
 	public Integer getDexNumber() {
 		return dexNumber;
 	}
@@ -38,12 +38,25 @@ public class PokemonFormAbilities implements Serializable{
 		this.formName = formName;
 	}
 
-	public Integer getAbilityIndex() {
-		return abilityIndex;
+	public String getAbility1() {
+		return ability1;
 	}
 
-	public void setAbilityIndex(Integer abilityIndex) {
-		this.abilityIndex = abilityIndex;
+	public void setAbility1(String ability1) {
+		this.ability1 = ability1;
+	}
+	public String getAbility2() {
+		return ability2;
 	}
 
+	public void setAbility2(String ability2) {
+		this.ability2 = ability2;
+	}
+	public String getAbility3() {
+		return ability3;
+	}
+
+	public void setAbilityHidden(String ability3) {
+		this.ability3 = ability3;
+	}
 }

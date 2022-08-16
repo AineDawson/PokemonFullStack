@@ -1,17 +1,16 @@
 package pokemonsite.pokemonbackend.model;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
 @IdClass(PokemonFormId.class)
 @Table(name="pokemonform")
-//@SecondaryTable(name="pokemon", pkJoinColumns= {
-////	@PrimaryKeyJoinColumn(name="pokemonName"),
-//	@PrimaryKeyJoinColumn(name="dexNumber")
-//	})
-public class PokemonForm{
+public class PokemonForm implements Serializable{
 	@Id
 	@Column(name="dexNumber", nullable=false)
 	private Integer dexNumber;
@@ -34,22 +33,15 @@ public class PokemonForm{
 	@JoinColumn(name="dexNumber", insertable=false, updatable=false)
 	private Pokemon pokemon;
 	
-//	@OneToMany() 
-//	@JoinColumn(name="dexNumber", insertable=false, updatable=false)
-//	private <PokemonFormTypes> pokemonFormTypes;
-	
-	@OneToMany(targetEntity=PokemonFormTypes.class, cascade=CascadeType.ALL) 
+	@OneToMany(targetEntity=PokemonFormTypes.class) 
 	@JoinColumn(name="dexNumber")
 	@JoinColumn(name="formName")
 	private List<PokemonFormTypes> pokemonFormTypes;
 	
-	@OneToMany(targetEntity=PokemonFormAbilities.class, cascade=CascadeType.ALL) 
+	@OneToOne(targetEntity=PokemonFormAbilities.class) 
 	@JoinColumn(name="dexNumber")
 	@JoinColumn(name="formName")
-	private List<PokemonFormAbilities> pokemonFormAbilities;
-	
-//	@Id
-	
+	private PokemonFormAbilities pokemonFormAbilities;
 	
 	public PokemonForm() {}
 
@@ -88,11 +80,11 @@ public class PokemonForm{
 		this.pokemonFormTypes=pokemonFormTypes;
 	}
 	
-	public List<PokemonFormAbilities> getPokemonFormAbilities() {
+	public PokemonFormAbilities getPokemonFormAbilities() {
 		return pokemonFormAbilities;
 	}
 	
-	public void setPokemonFormAbilities(List<PokemonFormAbilities> pokemonFormAbilities) {
+	public void setPokemonFormAbilities(PokemonFormAbilities pokemonFormAbilities) {
 		this.pokemonFormAbilities=pokemonFormAbilities;
 	}
 

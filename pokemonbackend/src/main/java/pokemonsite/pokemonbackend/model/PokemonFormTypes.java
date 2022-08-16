@@ -12,18 +12,27 @@ public class PokemonFormTypes implements Serializable{
 	@Id
 	@Column(nullable=false)
 	private String formName;
-	private Integer typeIndex;
+	private String type1;
+	private String type2;
 
 	public PokemonFormTypes() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Integer getTypeIndex() {
-		return typeIndex;
+	public String getType1() {
+		return type1;
 	}
 
-	public void setTypeIndex(Integer typeIndex) {
-		this.typeIndex = typeIndex;
+	public void setType1(String type1) {
+		this.type1 = type1;
+	}
+	
+	public String getType2() {
+		return type2;
+	}
+
+	public void setType2(String type2) {
+		this.type2 = type2;
 	}
 
 }

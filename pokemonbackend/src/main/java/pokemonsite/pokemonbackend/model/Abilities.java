@@ -6,26 +6,12 @@ import javax.persistence.*;
 @Table(name="abilities")
 public class Abilities implements Serializable{
 	@Id
-	private Integer abilitiesIndex;
 	private String abilityName;
 	private String abilityDescription;
 	private Integer generation;
 
 	public Abilities() {
 		// TODO Auto-generated constructor stub
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-	public Integer getAbilitiesIndex() {
-		return abilitiesIndex;
-	}
-
-	public void setAbilitiesIndex(Integer abilitiesIndex) {
-		this.abilitiesIndex = abilitiesIndex;
 	}
 
 	public String getAbilityName() {

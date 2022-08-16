@@ -14,7 +14,4 @@ public interface PokémonRepo extends JpaRepository<PokemonForm, Integer>{
 	//Created automatically by Spring based on name
 	//Optional prevents the query from flat out failing if no Pokémon is found
 	Optional<PokemonForm> findPokemonFormByFormName(String formName);
-	
-//	@Query("select p from PokemonForm p where p.dexNumber=?1 and p.formName=?2")
-//	Optional<PokemonForm> findPokemonFormByDexNumberAndFormName(Integer dexNumber, String formName);
 }

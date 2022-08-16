@@ -21,9 +21,9 @@ public class PokémonService {
 	}
 	
 	//provided by JpaRepository
-	public List<PokemonForm> findAllPokémon(){
-		return pokémonRepo.findAll();
-	}
+//	public List<PokemonForm> findAllPokémon(){
+//		return pokémonRepo.findAll();
+//	}
 	
 	public List<PokemonForm> getPokemonForms() {
 		return pokémonRepo.getAllPokemonForms();

@@ -32,12 +32,12 @@ public class PokémonController {
 		this.pokémonService=pokémonService;
 	}
 	
-	//Retrieves every pokémon in the database
-	@GetMapping("/all")
-	public ResponseEntity<List<PokemonForm>> getAllPokémon(){
-		List<PokemonForm> pokémon=pokémonService.findAllPokémon();
-		return new ResponseEntity<>(pokémon, HttpStatus.OK);
-	}
+//	//Retrieves every pokémon in the database
+//	@GetMapping("/all")
+//	public ResponseEntity<List<PokemonForm>> getAllPokémon(){
+//		List<PokemonForm> pokémon=pokémonService.findAllPokémon();
+//		return new ResponseEntity<>(pokémon, HttpStatus.OK);
+//	}
 	
 	//Retrieves every pokémonform in the database
 		@GetMapping("/allforms")

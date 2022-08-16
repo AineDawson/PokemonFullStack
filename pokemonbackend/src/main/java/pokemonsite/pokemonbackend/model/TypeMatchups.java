@@ -6,34 +6,30 @@ import javax.persistence.*;
 @Table(name="typematchups")
 public class TypeMatchups implements Serializable{
 	@Id
-	private Integer attackTypeIndex;
+	private String attackType;
 	@Id
-	private Integer defenseTypeIndex;
+	private String defenseType;
 	private Double modifier;
 
 	public TypeMatchups() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+	public String getAttackType() {
+		return attackType;
 	}
 
-	public Integer getAttackTypeIndex() {
-		return attackTypeIndex;
+	public void setAttackType(String attackType) {
+		this.attackType = attackType;
 	}
 
-	public void setAttackTypeIndex(Integer attackTypeIndex) {
-		this.attackTypeIndex = attackTypeIndex;
+	public String getDefenseType() {
+		return defenseType;
 	}
 
-	public Integer getDefenseTypeIndex() {
-		return defenseTypeIndex;
-	}
-
-	public void setDefenseTypeIndex(Integer defenseTypeIndex) {
-		this.defenseTypeIndex = defenseTypeIndex;
+	public void setDefenseType(String defenseType) {
+		this.defenseType = defenseType;
 	}
 
 	public Double getModifier() {
