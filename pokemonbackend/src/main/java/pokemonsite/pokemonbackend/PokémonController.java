@@ -54,7 +54,7 @@ public class PokémonController {
 	}
 	
 	@GetMapping(value="/image/{name}", produces="images/png")
-	public @ResponseBody byte[] getPokémonImageByIndexNumber(@PathVariable("name") String name){
+	public @ResponseBody byte[] getPokémonImageByName(@PathVariable("name") String name){
 		try {
 	        // Retrieve image from the classpath.
 
